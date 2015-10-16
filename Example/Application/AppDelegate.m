@@ -19,8 +19,16 @@
     [self.window setRootViewController:[ViewController new]];
     [self.window makeKeyAndVisible];
     
+    //For testing:
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setBool:NO forKey:@"ESFeedbackWasShown"];
+    [userDefaults synchronize];
+    
     [ESFeedbackViewController setNumberOfLaunchesToShow:1];
     [ESFeedbackViewController registerAppLaunch];
+    
+    [ESFeedbackViewController setOkButtonBackgroundColour:[UIColor greenColor]];
+    [ESFeedbackViewController  setCancelButtonBackgroundColour:[UIColor redColor]];
     
     return YES;
 }
