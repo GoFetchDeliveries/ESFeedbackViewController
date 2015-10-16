@@ -45,6 +45,8 @@
 + (UIFont *)buttonsFont;
 + (void)setButtonsFont:(UIFont *)font;
 
++ (void)setCancelButtonBackgroundColour:(UIColor *)colour;
++ (void)setOkButtonBackgroundColour:(UIColor *)colour;
 + (void)setTintColor:(UIColor *)tintColor;
 
 /**

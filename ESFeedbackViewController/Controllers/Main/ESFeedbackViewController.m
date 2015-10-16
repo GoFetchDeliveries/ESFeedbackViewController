@@ -24,6 +24,8 @@ static NSString *const _feedbackWasShownKey = @"ESFeedbackWasShown";
 static NSInteger _numberOfLaunchesToShow = 0;
 static UIFont *_textFont;
 static UIFont *_buttonsFont;
+static UIColor *_cancelButtonBackgroundColour;
+static UIColor *_okButtonBackgroundColour;
 static UIColor *_windowTintColour;
 static NSString *_appID;
 static void (^_onPromptWasDismissed)(ESFeedbackPromptViewController *, BOOL);
@@ -113,6 +115,21 @@ static ESFeedbackViewController *_currentInstance;
     _buttonsFont = font;
 }
 
++ (UIColor *)cancelButtonBackgroundColour {
+    return _cancelButtonBackgroundColour;
+}
+
++ (void)setCancelButtonBackgroundColour:(UIColor *)colour {
+    _cancelButtonBackgroundColour = colour;
+}
+
++ (UIColor *)okButtonBackgroundColour {
+    return _okButtonBackgroundColour;
+}
+
++ (void)setOkButtonBackgroundColour:(UIColor *)colour {
+    _okButtonBackgroundColour = colour;
+}
 
 + (void)setTintColor:(UIColor *)tintColor {
     _windowTintColour = tintColor;
@@ -288,7 +305,7 @@ static ESFeedbackViewController *_currentInstance;
 
 
 - (void)setupCancelButton {
-    self.cancelButton.backgroundColor = [UIColor colorWithHex:0xFAF6F5];
+    self.cancelButton.backgroundColor = _cancelButtonBackgroundColour ?: [UIColor colorWithHex:0xFAF6F5];
     self.cancelButton.tintColor = [UIColor colorWithHex:0x595250];
     
     self.cancelButton.titleLabel.font = [ESFeedbackViewController buttonsFont];
@@ -296,7 +313,7 @@ static ESFeedbackViewController *_currentInstance;
 
 
 - (void)setupOKButton {
-    self.OKButton.backgroundColor = [UIColor colorWithHex:0x68BD4E];
+    self.OKButton.backgroundColor = _okButtonBackgroundColour ?: [UIColor colorWithHex:0x68BD4E];
     self.OKButton.tintColor = [UIColor whiteColor];
     
     self.OKButton.titleLabel.font = [ESFeedbackViewController buttonsFont];
