@@ -24,6 +24,7 @@ static NSString *const _feedbackWasShownKey = @"ESFeedbackWasShown";
 static NSInteger _numberOfLaunchesToShow = 0;
 static UIFont *_textFont;
 static UIFont *_buttonsFont;
+static UIColor *_windowTintColour;
 static NSString *_appID;
 static void (^_onPromptWasDismissed)(ESFeedbackPromptViewController *, BOOL);
 
@@ -110,6 +111,11 @@ static ESFeedbackViewController *_currentInstance;
 
 + (void)setButtonsFont:(UIFont *)font {
     _buttonsFont = font;
+}
+
+
++ (void)setTintColor:(UIColor *)tintColor {
+    _windowTintColour = tintColor;
 }
 
 
@@ -202,6 +208,7 @@ static ESFeedbackViewController *_currentInstance;
 + (void)show {
     // First of all, hold a reference to the main window.
     _mainWindow = [[[UIApplication sharedApplication] delegate] window];
+    _mainWindow.tintColor = _windowTintColour;
     
     // Then create a new window to present the feedback view controller.
     _presentingWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
