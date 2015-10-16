@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor yellowColor];
+    
     [ESFeedbackViewController setOnPromptWasDismissed:^(ESFeedbackPromptViewController *promptVC, BOOL ok) {
         NSLog(ok ? @"Pressed OK" : @"Pressed Cancel");
         
