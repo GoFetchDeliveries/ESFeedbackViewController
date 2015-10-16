@@ -9,12 +9,16 @@
 #import <ESFeedbackViewController/ESFeedbackViewController.h>
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    [self.window setRootViewController:[ViewController new]];
+    [self.window makeKeyAndVisible];
+    
     [ESFeedbackViewController setNumberOfLaunchesToShow:1];
     [ESFeedbackViewController registerAppLaunch];
     
