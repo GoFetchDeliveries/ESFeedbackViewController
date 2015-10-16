@@ -1,7 +1,5 @@
 PODS:
-  - ESBlur (0.1.0)
-  - ESFeedbackViewController (0.1.0):
-    - ESBlur (~> 0.1.0)
+  - ESFeedbackViewController (0.1.1)
 
 DEPENDENCIES:
   - ESFeedbackViewController (from `..`)
@@ -11,7 +9,6 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  ESBlur: 0665ab260afb3306134d8c328e9d5beeae2d0944
-  ESFeedbackViewController: 684ace42429542e060e95587701024344ca221ed
+  ESFeedbackViewController: f3ec57ac543dc9d99eb6ed86793063ff54128e22
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.38.2

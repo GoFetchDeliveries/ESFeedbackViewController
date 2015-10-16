@@ -7,597 +7,500 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B35323F33448409EA80B07 /* ESFeedbackViewController+Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 81789DA4E48844C23845AB61 /* ESFeedbackViewController+Constraints.h */; };
-		04288F2A73C9D695366F6E53 /* ESFeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CA03EEE6103BCA593441A6 /* ESFeedbackViewController.h */; };
-		0A54B6E9D74465F0647A6FBE /* ESFeedbackEnjoyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C15E152A40E98301E4AF6E99 /* ESFeedbackEnjoyViewController.h */; };
-		11C9B9B9EC8E13F8CC11069A /* ESFeedbackFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC635246DE653AB00CFAC40 /* ESFeedbackFinishViewController.m */; };
-		1CADBE40D3FE7679A5A4E631 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74014A7DDD87E0687769A91 /* Pods-dummy.m */; };
-		1E79A6F3DC746F36809ACB7C /* ESFeedbackPromptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A90CD580267A7E7641E6A18 /* ESFeedbackPromptViewController.m */; };
-		23BB118D597939E4B2E67D08 /* UIView+ESBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = DDACF08C265B9ABDBD2C01B8 /* UIView+ESBlur.m */; };
-		2B72B9FFE18E1D4674197B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0426D704D3F024E471C9E5D6 /* Foundation.framework */; };
-		301254CC7E7E700C518DC348 /* ESFeedbackRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220522E1FFF51B7A1DF06332 /* ESFeedbackRatingViewController.m */; };
-		315497D099485F829302B438 /* ESScreenUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AB24267C01A036D7A07A5984 /* ESScreenUtils.h */; };
-		3B2FF5E5489A1A3D08CD8A1D /* ESScreenUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BBC2796D08C96F7EE35D52 /* ESScreenUtils.m */; };
-		489D7C3BC2B313306DBECC46 /* ESFeedbackEnjoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E259E0E8558CEBB9BC7946 /* ESFeedbackEnjoyViewController.m */; };
-		568A91114D81CE757EC36AE5 /* Pods-ESFeedbackViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C3EEF58CC6CF0C788674FD /* Pods-ESFeedbackViewController-dummy.m */; };
-		58A9798C810E454451E65A11 /* ESFeedbackRatingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F57691B6360A7FD29D95035E /* ESFeedbackRatingViewController.h */; };
-		64E84C3B79781CCE2D4358C9 /* ESFeedbackNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCE9EFCB99830ACC6C094D2 /* ESFeedbackNavigationController.h */; };
-		6A620D7CF2540EE7EEEDBEA7 /* UIImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C9850C273DB84475929036 /* UIImageEffects.h */; };
-		7454040E976133E7375B8E4B /* ESFeedbackSuggestionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AC336C83F28239905B4D52 /* ESFeedbackSuggestionViewController.h */; };
-		7D82F0DF285519EA4F86DA67 /* ESFeedbackViewController+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CE0B4D23EE9694B62F074A /* ESFeedbackViewController+Keyboard.m */; };
-		818BAB8EBBAE0617DFBB87DC /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = FECC80B15AF095E345748D6B /* UIColor+Hex.h */; };
-		862E6AF1F9EE72C7B95F9BC2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F1BF95809CB2149655944 /* UIColor+Hex.m */; };
-		9A64060BD7421CF6B03C73FB /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2275CA24BA82A0729E7739F3 /* UIImageEffects.m */; };
-		A2ABEB9C5F37B70FF43F7D68 /* ESFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE666D0E823E2F9D78B9B9 /* ESFeedbackViewController.m */; };
-		AF41625405B7EDC978E1BFA2 /* ESFeedbackQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB7966BFA5A75EA1C9DC67 /* ESFeedbackQuestionViewController.m */; };
-		AFFE4BA3DA414C1FE880EBEF /* ESFeedbackFinishViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5870D4F47BE5A91E84CC0A /* ESFeedbackFinishViewController.h */; };
-		B5D55D935E13F66B99133E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0426D704D3F024E471C9E5D6 /* Foundation.framework */; };
-		C0C0F749A4DD2592162E0CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0426D704D3F024E471C9E5D6 /* Foundation.framework */; };
-		C3CC05D3BFC8161DC5747764 /* ESFeedbackSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2148EAC6EA7F4D2290F257 /* ESFeedbackSuggestionViewController.m */; };
-		CE8020DF82BA8845198924D0 /* ESFeedbackViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC8483AA0A97B3C2438A779 /* ESFeedbackViewController+Navigation.m */; };
-		D06E2F3777DD93B618CCCB6D /* ESFeedbackViewController+Navigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C5BCA2FCD5D180E141260 /* ESFeedbackViewController+Navigation.h */; };
-		D2701C9423D95AD62425FF55 /* Pods-ESBlur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF837F9AD50ED49840D090C7 /* Pods-ESBlur-dummy.m */; };
-		D6AD827C752D38A36CE28039 /* UIView+ESBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9CB782955702C78DF1EBC7 /* UIView+ESBlur.h */; };
-		DB65AE7E581371143302D831 /* ESFeedbackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B1514F9F57B05B0CA7D4C0 /* ESFeedbackNavigationController.m */; };
-		E6875A771E3A7F9CB8850D39 /* ESFeedbackViewController+Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = C6252E7602D994DB5DC26931 /* ESFeedbackViewController+Keyboard.h */; };
-		EACA1173578DC82ADB2F69DD /* ESFeedbackViewController+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0399AD8D5CD5AB37463B5 /* ESFeedbackViewController+Constraints.m */; };
-		F14D7038112EE0BF618C1DDD /* ESFeedbackQuestionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFBBA37A63B68EFE1E73E02 /* ESFeedbackQuestionViewController.h */; };
-		FE8F051657BCE1376D9939B1 /* ESFeedbackPromptViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9BCFE18FEE285EEBB8A8BC /* ESFeedbackPromptViewController.h */; };
+		05504CF787F29668039E3F5C0AC301AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2752930C22C243BAF0356C377EDD5A2D /* Foundation.framework */; };
+		07BEBB7E787E960CF276EF59BEB58257 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4FF78DB5BF04CC4BF56EE77C33ED4 /* UIColor+Hex.m */; };
+		215E7FC4216E0034F78E497D84124788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2752930C22C243BAF0356C377EDD5A2D /* Foundation.framework */; };
+		21C0670276D22A2081172C49911DE7A6 /* ESFeedbackViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8B9B9618190C9ACDB48D6B361869E /* ESFeedbackViewController-dummy.m */; };
+		2B5B1F89DE14FE595FC51E8904AFD5C2 /* ESFeedbackViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD3C321F166916486E629BF05DE998C /* ESFeedbackViewController+Navigation.m */; };
+		2D7DDE3F2CF6980B314B97B5B156A187 /* ESFeedbackViewController+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA067741B3206AF7C1F88864588C0F /* ESFeedbackViewController+Keyboard.m */; };
+		345C03959421780F40FEDA54CCAF5DFB /* ESFeedbackEnjoyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98714F782CFAB71733CD4F6BC6577572 /* ESFeedbackEnjoyViewController.h */; };
+		401CDF7324C38D41803AA5D503AA44CA /* ESFeedbackViewController+Navigation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB572EDFA585F49E4505D4E682C20E1 /* ESFeedbackViewController+Navigation.h */; };
+		4E0CE225B43152C727F6458F24A0B9AE /* ESFeedbackRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C685E41EE7BA3F8ED5849B8BF3EF70 /* ESFeedbackRatingViewController.m */; };
+		5680A026D8A51D067CDC64E4244E02AD /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E98A56AF8155899535D82C0A541012 /* UIColor+Hex.h */; };
+		583BD54CFDCD1EB0784A49A1AF79AEFC /* ESFeedbackSuggestionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC5CC0A34C2E817B5030C2724ADEBE /* ESFeedbackSuggestionViewController.h */; };
+		604E9AD0A0228F039D821377FEBDB607 /* ESFeedbackNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E8F562C281652E519451DE4C497A0 /* ESFeedbackNavigationController.h */; };
+		6287BA57185E237AD2A8E6EC839D20D1 /* ESFeedbackPromptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6AA56964507BFD296F91C49FD34E3E /* ESFeedbackPromptViewController.m */; };
+		6B22F7866E591B3FEABA3F0283BB3B54 /* ESFeedbackQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428205BCEDE496E949C597E78A151ECE /* ESFeedbackQuestionViewController.m */; };
+		6BE37EC600E3DBC5D87E867C25D087C3 /* ESFeedbackViewController+Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD284ED1025A78C6D30DE2088591985E /* ESFeedbackViewController+Constraints.h */; };
+		6DF90ED9AF1761E04B7C6445240DF109 /* ESFeedbackQuestionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6D07657DD211F060DE773DB5833390 /* ESFeedbackQuestionViewController.h */; };
+		88B91DF03E013FF9152494244F7E1A13 /* ESFeedbackPromptViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CF00B0C1811E512C5A875B531E2352 /* ESFeedbackPromptViewController.h */; };
+		8A0860A55B1FFC261FD95D81BD68F355 /* ESFeedbackFinishViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2DED2BFCFB012DBB1BA5793C75401A /* ESFeedbackFinishViewController.h */; };
+		9D587F834C3F0E1581AFE5D51E1FC401 /* ESFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67BA6EFE176F3F609CF9259D909266 /* ESFeedbackViewController.m */; };
+		AE8607CB34E3DB7537E9C5CD77FF9D64 /* ESFeedbackRatingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A276E175A67132CE8B5BF66348F29199 /* ESFeedbackRatingViewController.h */; };
+		BC01331DFAFB33FC35CB2A77D7EF3647 /* ESFeedbackSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C408771B70161764D00F676F115EF51 /* ESFeedbackSuggestionViewController.m */; };
+		BDCF51CA19AE463E59534562598515B5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 222D377A4BB7557890C4C5F92D86A11B /* Pods-dummy.m */; };
+		BE109F38E0FB39677704DDD7C6DF9996 /* ESScreenUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D7470A5548B48211E0419D1E8E08A06F /* ESScreenUtils.m */; };
+		BFF101286D211DF35192F085B4EE6E98 /* ESFeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C86F9F9C5E6FFFFBB1C3B7D45EB6CC /* ESFeedbackViewController.h */; };
+		C316C286F61DB402BF74A59CF765B17C /* ESFeedbackViewController+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DDEE1BE3F9B0F99B023584E8ECB2A4 /* ESFeedbackViewController+Constraints.m */; };
+		DA6663AD2B61A5D7762F5633361FAA7B /* ESFeedbackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BADA14946380E58352A64A51479765 /* ESFeedbackNavigationController.m */; };
+		DD169FF291B3E2A2948A4502711551CD /* ESScreenUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF57DAFB747457963F87B3AAB3C2769 /* ESScreenUtils.h */; };
+		E5C3CA00D5C1EF153C36AF3790CD2796 /* ESFeedbackFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A510A340C62B310576A5C1A72294C0FC /* ESFeedbackFinishViewController.m */; };
+		E62D387BDED4E346EE23426BF80C804F /* ESFeedbackEnjoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D74D789E8FEDC680BBAC8D909516E10 /* ESFeedbackEnjoyViewController.m */; };
+		F47D853015ABA9C8A708CA2A427315CE /* ESFeedbackViewController+Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7724006FEBA4ECB3A36619C1E229D1D7 /* ESFeedbackViewController+Keyboard.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5376B71245863E5CEE1E6A2F /* PBXContainerItemProxy */ = {
+		CEF2D1F51078E29038C2CD41C1B976E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D70929DD8C2C92CEDDACF3D7 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F56832101CF556F5BF781E9D;
-			remoteInfo = "Pods-ESBlur";
-		};
-		9962B78225A2E43F7D78B082 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D70929DD8C2C92CEDDACF3D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B68EF91F4D932CEDD56EF5BE;
-			remoteInfo = "Pods-ESFeedbackViewController";
-		};
-		DCB4F3629F65220FF49B6E5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D70929DD8C2C92CEDDACF3D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F56832101CF556F5BF781E9D;
-			remoteInfo = "Pods-ESBlur";
+			remoteGlobalIDString = 435833967C23B4518C548E5A2887FCEC;
+			remoteInfo = ESFeedbackViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0426D704D3F024E471C9E5D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		08AC336C83F28239905B4D52 /* ESFeedbackSuggestionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackSuggestionViewController.h; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackSuggestionViewController.h; sourceTree = "<group>"; };
-		0F2F1BF95809CB2149655944 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "ESFeedbackViewController/Categories/UIColor+Hex.m"; sourceTree = "<group>"; };
-		1E656A18B3177F270ACF50DD /* Pods-ESBlur-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESBlur-prefix.pch"; sourceTree = "<group>"; };
-		220522E1FFF51B7A1DF06332 /* ESFeedbackRatingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackRatingViewController.m; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackRatingViewController.m; sourceTree = "<group>"; };
-		2275CA24BA82A0729E7739F3 /* UIImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIImageEffects.m; path = ESBlur/Helpers/UIImageEffects.m; sourceTree = "<group>"; };
-		2288F32ACD313F18565862DF /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26B1514F9F57B05B0CA7D4C0 /* ESFeedbackNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackNavigationController.m; path = ESFeedbackViewController/Controllers/Navigation/ESFeedbackNavigationController.m; sourceTree = "<group>"; };
-		2B0C5BCA2FCD5D180E141260 /* ESFeedbackViewController+Navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESFeedbackViewController+Navigation.h"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Navigation.h"; sourceTree = "<group>"; };
-		2E49AA45F22E883A4D2FED56 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		36FAC49721B459EF545DE8EB /* libPods-ESFeedbackViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESFeedbackViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B20D158368BB77B5BB05CDE /* Pods-ESFeedbackViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESFeedbackViewController.xcconfig"; sourceTree = "<group>"; };
-		3D9771056AB932DDBA82D2BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B26B2B145C21618664F075 /* Pods-ESFeedbackViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESFeedbackViewController-prefix.pch"; sourceTree = "<group>"; };
-		57CE0B4D23EE9694B62F074A /* ESFeedbackViewController+Keyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESFeedbackViewController+Keyboard.m"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Keyboard.m"; sourceTree = "<group>"; };
-		58E259E0E8558CEBB9BC7946 /* ESFeedbackEnjoyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackEnjoyViewController.m; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackEnjoyViewController.m; sourceTree = "<group>"; };
-		5A90CD580267A7E7641E6A18 /* ESFeedbackPromptViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackPromptViewController.m; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackPromptViewController.m; sourceTree = "<group>"; };
-		61CA03EEE6103BCA593441A6 /* ESFeedbackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackViewController.h; path = ESFeedbackViewController/Controllers/Main/ESFeedbackViewController.h; sourceTree = "<group>"; };
-		70EC0F422B1944AA6016DB31 /* Feedback.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Feedback.storyboard; path = ESFeedbackViewController/Storyboard/Feedback.storyboard; sourceTree = "<group>"; };
-		76FA403ADD3EBFC0C54E4AE1 /* Pods-ESBlur.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESBlur.xcconfig"; sourceTree = "<group>"; };
-		7755C8767E93776E3B0B4A0C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7C9CB782955702C78DF1EBC7 /* UIView+ESBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ESBlur.h"; path = "ESBlur/Categories/UIView+ESBlur.h"; sourceTree = "<group>"; };
-		81789DA4E48844C23845AB61 /* ESFeedbackViewController+Constraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESFeedbackViewController+Constraints.h"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Constraints.h"; sourceTree = "<group>"; };
-		86A0399AD8D5CD5AB37463B5 /* ESFeedbackViewController+Constraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESFeedbackViewController+Constraints.m"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Constraints.m"; sourceTree = "<group>"; };
-		8EBBE841E440911033183D83 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		9DEB7966BFA5A75EA1C9DC67 /* ESFeedbackQuestionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackQuestionViewController.m; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackQuestionViewController.m; sourceTree = "<group>"; };
-		A512519188CD346447050A08 /* Pods-ESBlur-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESBlur-Private.xcconfig"; sourceTree = "<group>"; };
-		AB24267C01A036D7A07A5984 /* ESScreenUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESScreenUtils.h; path = "ESFeedbackViewController/Helpers/Screen utils/ESScreenUtils.h"; sourceTree = "<group>"; };
-		ABFBBA37A63B68EFE1E73E02 /* ESFeedbackQuestionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackQuestionViewController.h; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackQuestionViewController.h; sourceTree = "<group>"; };
-		AEC8483AA0A97B3C2438A779 /* ESFeedbackViewController+Navigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESFeedbackViewController+Navigation.m"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Navigation.m"; sourceTree = "<group>"; };
-		B1C9850C273DB84475929036 /* UIImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIImageEffects.h; path = ESBlur/Helpers/UIImageEffects.h; sourceTree = "<group>"; };
-		B2C3EEF58CC6CF0C788674FD /* Pods-ESFeedbackViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESFeedbackViewController-dummy.m"; sourceTree = "<group>"; };
-		C15E152A40E98301E4AF6E99 /* ESFeedbackEnjoyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackEnjoyViewController.h; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackEnjoyViewController.h; sourceTree = "<group>"; };
-		C5FBDA0A5B19929DF643C6AA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		C6252E7602D994DB5DC26931 /* ESFeedbackViewController+Keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESFeedbackViewController+Keyboard.h"; path = "ESFeedbackViewController/Controllers/Main/ESFeedbackViewController+Keyboard.h"; sourceTree = "<group>"; };
-		CCBE666D0E823E2F9D78B9B9 /* ESFeedbackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackViewController.m; path = ESFeedbackViewController/Controllers/Main/ESFeedbackViewController.m; sourceTree = "<group>"; };
-		CD1C809FEFBCADF98288D4B5 /* libPods-ESBlur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESBlur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2148EAC6EA7F4D2290F257 /* ESFeedbackSuggestionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackSuggestionViewController.m; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackSuggestionViewController.m; sourceTree = "<group>"; };
-		CF837F9AD50ED49840D090C7 /* Pods-ESBlur-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESBlur-dummy.m"; sourceTree = "<group>"; };
-		D218155F83A143EEAE5E287D /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		D74014A7DDD87E0687769A91 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		DB9BCFE18FEE285EEBB8A8BC /* ESFeedbackPromptViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackPromptViewController.h; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackPromptViewController.h; sourceTree = "<group>"; };
-		DBC635246DE653AB00CFAC40 /* ESFeedbackFinishViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESFeedbackFinishViewController.m; path = ESFeedbackViewController/Controllers/Finish/ESFeedbackFinishViewController.m; sourceTree = "<group>"; };
-		DDACF08C265B9ABDBD2C01B8 /* UIView+ESBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ESBlur.m"; path = "ESBlur/Categories/UIView+ESBlur.m"; sourceTree = "<group>"; };
-		E4BBC2796D08C96F7EE35D52 /* ESScreenUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESScreenUtils.m; path = "ESFeedbackViewController/Helpers/Screen utils/ESScreenUtils.m"; sourceTree = "<group>"; };
-		E707E9C04C12B27B1595CC8C /* Pods-ESFeedbackViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESFeedbackViewController-Private.xcconfig"; sourceTree = "<group>"; };
-		EF5870D4F47BE5A91E84CC0A /* ESFeedbackFinishViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackFinishViewController.h; path = ESFeedbackViewController/Controllers/Finish/ESFeedbackFinishViewController.h; sourceTree = "<group>"; };
-		F57691B6360A7FD29D95035E /* ESFeedbackRatingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackRatingViewController.h; path = ESFeedbackViewController/Controllers/Prompt/ESFeedbackRatingViewController.h; sourceTree = "<group>"; };
-		F85649B08E08D6432D4B7102 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		FECC80B15AF095E345748D6B /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "ESFeedbackViewController/Categories/UIColor+Hex.h"; sourceTree = "<group>"; };
-		FFCE9EFCB99830ACC6C094D2 /* ESFeedbackNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESFeedbackNavigationController.h; path = ESFeedbackViewController/Controllers/Navigation/ESFeedbackNavigationController.h; sourceTree = "<group>"; };
+		0BC83A2D2875C8E2025F6190393A1A4F /* libESFeedbackViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESFeedbackViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC28120DE6D83B28B3EF0ADD53B5FCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		11E98A56AF8155899535D82C0A541012 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D74D789E8FEDC680BBAC8D909516E10 /* ESFeedbackEnjoyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackEnjoyViewController.m; sourceTree = "<group>"; };
+		222D377A4BB7557890C4C5F92D86A11B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2752930C22C243BAF0356C377EDD5A2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2B9E8F562C281652E519451DE4C497A0 /* ESFeedbackNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackNavigationController.h; sourceTree = "<group>"; };
+		2CC8B9B9618190C9ACDB48D6B361869E /* ESFeedbackViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESFeedbackViewController-dummy.m"; sourceTree = "<group>"; };
+		428205BCEDE496E949C597E78A151ECE /* ESFeedbackQuestionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackQuestionViewController.m; sourceTree = "<group>"; };
+		4DB4FF78DB5BF04CC4BF56EE77C33ED4 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		575E614B1BCE9F6C4FD4CF5872A16379 /* ESFeedbackViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESFeedbackViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		5F4CAD0E7A6008C0B09F18CE06C4BCC1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		630ED08C05B3F75F957FFEC17D1CE4E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		67C86F9F9C5E6FFFFBB1C3B7D45EB6CC /* ESFeedbackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackViewController.h; sourceTree = "<group>"; };
+		67DDEE1BE3F9B0F99B023584E8ECB2A4 /* ESFeedbackViewController+Constraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESFeedbackViewController+Constraints.m"; sourceTree = "<group>"; };
+		686A06DEF1A8724A4B1DAF871B25A90B /* Feedback.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Feedback.storyboard; sourceTree = "<group>"; };
+		6AF57DAFB747457963F87B3AAB3C2769 /* ESScreenUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESScreenUtils.h; sourceTree = "<group>"; };
+		6D2DED2BFCFB012DBB1BA5793C75401A /* ESFeedbackFinishViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackFinishViewController.h; sourceTree = "<group>"; };
+		74DC5CC0A34C2E817B5030C2724ADEBE /* ESFeedbackSuggestionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackSuggestionViewController.h; sourceTree = "<group>"; };
+		7724006FEBA4ECB3A36619C1E229D1D7 /* ESFeedbackViewController+Keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESFeedbackViewController+Keyboard.h"; sourceTree = "<group>"; };
+		79C809B3215BB19F8F1364ACBF90EE2E /* ESFeedbackViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESFeedbackViewController.xcconfig; sourceTree = "<group>"; };
+		7C408771B70161764D00F676F115EF51 /* ESFeedbackSuggestionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackSuggestionViewController.m; sourceTree = "<group>"; };
+		8C6AA56964507BFD296F91C49FD34E3E /* ESFeedbackPromptViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackPromptViewController.m; sourceTree = "<group>"; };
+		956FC1CED6DB4C241F7337281078D69E /* ESFeedbackViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESFeedbackViewController-prefix.pch"; sourceTree = "<group>"; };
+		98714F782CFAB71733CD4F6BC6577572 /* ESFeedbackEnjoyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackEnjoyViewController.h; sourceTree = "<group>"; };
+		99BADA14946380E58352A64A51479765 /* ESFeedbackNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackNavigationController.m; sourceTree = "<group>"; };
+		A276E175A67132CE8B5BF66348F29199 /* ESFeedbackRatingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackRatingViewController.h; sourceTree = "<group>"; };
+		A510A340C62B310576A5C1A72294C0FC /* ESFeedbackFinishViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackFinishViewController.m; sourceTree = "<group>"; };
+		AD284ED1025A78C6D30DE2088591985E /* ESFeedbackViewController+Constraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESFeedbackViewController+Constraints.h"; sourceTree = "<group>"; };
+		B8CF00B0C1811E512C5A875B531E2352 /* ESFeedbackPromptViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackPromptViewController.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4EA067741B3206AF7C1F88864588C0F /* ESFeedbackViewController+Keyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESFeedbackViewController+Keyboard.m"; sourceTree = "<group>"; };
+		CC67BA6EFE176F3F609CF9259D909266 /* ESFeedbackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackViewController.m; sourceTree = "<group>"; };
+		D7470A5548B48211E0419D1E8E08A06F /* ESScreenUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESScreenUtils.m; sourceTree = "<group>"; };
+		EBD3C321F166916486E629BF05DE998C /* ESFeedbackViewController+Navigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESFeedbackViewController+Navigation.m"; sourceTree = "<group>"; };
+		F8C685E41EE7BA3F8ED5849B8BF3EF70 /* ESFeedbackRatingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESFeedbackRatingViewController.m; sourceTree = "<group>"; };
+		FB6D07657DD211F060DE773DB5833390 /* ESFeedbackQuestionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESFeedbackQuestionViewController.h; sourceTree = "<group>"; };
+		FCB572EDFA585F49E4505D4E682C20E1 /* ESFeedbackViewController+Navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESFeedbackViewController+Navigation.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4488A39B3084504A624ABB18 /* Frameworks */ = {
+		0F24F0EA5DB4A49C353AAEAB65EED803 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C0F749A4DD2592162E0CEF /* Foundation.framework in Frameworks */,
+				05504CF787F29668039E3F5C0AC301AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DCF04147AEF1BC32AF77D77 /* Frameworks */ = {
+		3AA68F2E51528B0EA9DAE692189C2859 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D55D935E13F66B99133E3D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A56FF05A963B2F42F7CF8E94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B72B9FFE18E1D4674197B8E /* Foundation.framework in Frameworks */,
+				215E7FC4216E0034F78E497D84124788 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1553FC9A4F5174B0E46A20CA /* Resources */ = {
+		0F36EB24B30B6DA9408BFF8D934F257A /* Prompt */ = {
 			isa = PBXGroup;
 			children = (
-				70EC0F422B1944AA6016DB31 /* Feedback.storyboard */,
+				98714F782CFAB71733CD4F6BC6577572 /* ESFeedbackEnjoyViewController.h */,
+				1D74D789E8FEDC680BBAC8D909516E10 /* ESFeedbackEnjoyViewController.m */,
+				B8CF00B0C1811E512C5A875B531E2352 /* ESFeedbackPromptViewController.h */,
+				8C6AA56964507BFD296F91C49FD34E3E /* ESFeedbackPromptViewController.m */,
+				FB6D07657DD211F060DE773DB5833390 /* ESFeedbackQuestionViewController.h */,
+				428205BCEDE496E949C597E78A151ECE /* ESFeedbackQuestionViewController.m */,
+				A276E175A67132CE8B5BF66348F29199 /* ESFeedbackRatingViewController.h */,
+				F8C685E41EE7BA3F8ED5849B8BF3EF70 /* ESFeedbackRatingViewController.m */,
+				74DC5CC0A34C2E817B5030C2724ADEBE /* ESFeedbackSuggestionViewController.h */,
+				7C408771B70161764D00F676F115EF51 /* ESFeedbackSuggestionViewController.m */,
+			);
+			path = Prompt;
+			sourceTree = "<group>";
+		};
+		11AC252205E6389687D0FA4515C95CBB /* ESFeedbackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D30E30EA0D520FE3E760D68ADB1D1A76 /* Storyboard */,
+			);
+			path = ESFeedbackViewController;
+			sourceTree = "<group>";
+		};
+		1DDC4751E976A677C858531A0DB5303E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11AC252205E6389687D0FA4515C95CBB /* ESFeedbackViewController */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3B3DCF842200ADB856780DC8 /* Pods */ = {
+		265C22E48E8329401634B9F0CD58C303 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				2288F32ACD313F18565862DF /* Pods-acknowledgements.markdown */,
-				2E49AA45F22E883A4D2FED56 /* Pods-acknowledgements.plist */,
-				D74014A7DDD87E0687769A91 /* Pods-dummy.m */,
-				D218155F83A143EEAE5E287D /* Pods-environment.h */,
-				C5FBDA0A5B19929DF643C6AA /* Pods-resources.sh */,
-				8EBBE841E440911033183D83 /* Pods.debug.xcconfig */,
-				F85649B08E08D6432D4B7102 /* Pods.release.xcconfig */,
+				D61FFAFF8CB3BBFA44C951FE62922C01 /* Screen utils */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2F6B25D8BC1008BE333B24A138008703 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				11E98A56AF8155899535D82C0A541012 /* UIColor+Hex.h */,
+				4DB4FF78DB5BF04CC4BF56EE77C33ED4 /* UIColor+Hex.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3FFCC265CA7CFFCE262DBF3F4DC44743 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79C809B3215BB19F8F1364ACBF90EE2E /* ESFeedbackViewController.xcconfig */,
+				575E614B1BCE9F6C4FD4CF5872A16379 /* ESFeedbackViewController-Private.xcconfig */,
+				2CC8B9B9618190C9ACDB48D6B361869E /* ESFeedbackViewController-dummy.m */,
+				956FC1CED6DB4C241F7337281078D69E /* ESFeedbackViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ESFeedbackViewController";
+			sourceTree = "<group>";
+		};
+		4604346A7C6FF0B0FF7DA0DE65A5E388 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				67C86F9F9C5E6FFFFBB1C3B7D45EB6CC /* ESFeedbackViewController.h */,
+				CC67BA6EFE176F3F609CF9259D909266 /* ESFeedbackViewController.m */,
+				AD284ED1025A78C6D30DE2088591985E /* ESFeedbackViewController+Constraints.h */,
+				67DDEE1BE3F9B0F99B023584E8ECB2A4 /* ESFeedbackViewController+Constraints.m */,
+				7724006FEBA4ECB3A36619C1E229D1D7 /* ESFeedbackViewController+Keyboard.h */,
+				C4EA067741B3206AF7C1F88864588C0F /* ESFeedbackViewController+Keyboard.m */,
+				FCB572EDFA585F49E4505D4E682C20E1 /* ESFeedbackViewController+Navigation.h */,
+				EBD3C321F166916486E629BF05DE998C /* ESFeedbackViewController+Navigation.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2752930C22C243BAF0356C377EDD5A2D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9D70FBC3AA0BB95DFAC313197D2A1507 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				222D377A4BB7557890C4C5F92D86A11B /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				630ED08C05B3F75F957FFEC17D1CE4E0 /* Pods.debug.xcconfig */,
+				0EC28120DE6D83B28B3EF0ADD53B5FCA /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		6CDF3DB51711D08353864F2A /* Frameworks */ = {
+		9D70FBC3AA0BB95DFAC313197D2A1507 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4DB70F6CAF4E11AC322DE80 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7F8C63A1F41912DDDB948B25 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				76FA403ADD3EBFC0C54E4AE1 /* Pods-ESBlur.xcconfig */,
-				A512519188CD346447050A08 /* Pods-ESBlur-Private.xcconfig */,
-				CF837F9AD50ED49840D090C7 /* Pods-ESBlur-dummy.m */,
-				1E656A18B3177F270ACF50DD /* Pods-ESBlur-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ESBlur";
-			sourceTree = "<group>";
-		};
-		84CBF0D3B564B29969518BDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3D9771056AB932DDBA82D2BB /* libPods.a */,
-				CD1C809FEFBCADF98288D4B5 /* libPods-ESBlur.a */,
-				36FAC49721B459EF545DE8EB /* libPods-ESFeedbackViewController.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8F6CF54906A02CAE190A4DBE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD23FBABE455CA9E918E496E /* ESBlur */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		90A1C9E32C4208E5D451715B = {
-			isa = PBXGroup;
-			children = (
-				7755C8767E93776E3B0B4A0C /* Podfile */,
-				B54C79A9B54C563B56477682 /* Development Pods */,
-				6CDF3DB51711D08353864F2A /* Frameworks */,
-				8F6CF54906A02CAE190A4DBE /* Pods */,
-				84CBF0D3B564B29969518BDE /* Products */,
-				F3ECA579979DEAF20AAA70EE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B54C79A9B54C563B56477682 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8832F1B5A346A2B08E42CAD /* ESFeedbackViewController */,
+				D5C840B2E6AE3F68A3EA65102096E53F /* ESFeedbackViewController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B79475E2A46EF377E19E91EF /* Support Files */ = {
+		9DE07E887FB6F89272B47EFE880F05D7 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				3B20D158368BB77B5BB05CDE /* Pods-ESFeedbackViewController.xcconfig */,
-				E707E9C04C12B27B1595CC8C /* Pods-ESFeedbackViewController-Private.xcconfig */,
-				B2C3EEF58CC6CF0C788674FD /* Pods-ESFeedbackViewController-dummy.m */,
-				52B26B2B145C21618664F075 /* Pods-ESFeedbackViewController-prefix.pch */,
+				2B9E8F562C281652E519451DE4C497A0 /* ESFeedbackNavigationController.h */,
+				99BADA14946380E58352A64A51479765 /* ESFeedbackNavigationController.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-ESFeedbackViewController";
+			path = Navigation;
 			sourceTree = "<group>";
 		};
-		BD23FBABE455CA9E918E496E /* ESBlur */ = {
+		B9845EDB8214F606D676185936A6573E /* Finish */ = {
 			isa = PBXGroup;
 			children = (
-				B1C9850C273DB84475929036 /* UIImageEffects.h */,
-				2275CA24BA82A0729E7739F3 /* UIImageEffects.m */,
-				7C9CB782955702C78DF1EBC7 /* UIView+ESBlur.h */,
-				DDACF08C265B9ABDBD2C01B8 /* UIView+ESBlur.m */,
-				7F8C63A1F41912DDDB948B25 /* Support Files */,
+				6D2DED2BFCFB012DBB1BA5793C75401A /* ESFeedbackFinishViewController.h */,
+				A510A340C62B310576A5C1A72294C0FC /* ESFeedbackFinishViewController.m */,
 			);
-			path = ESBlur;
+			path = Finish;
 			sourceTree = "<group>";
 		};
-		E4DB70F6CAF4E11AC322DE80 /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0426D704D3F024E471C9E5D6 /* Foundation.framework */,
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F3ECA579979DEAF20AAA70EE /* Targets Support Files */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B3DCF842200ADB856780DC8 /* Pods */,
+				0BC83A2D2875C8E2025F6190393A1A4F /* libESFeedbackViewController.a */,
+				5F4CAD0E7A6008C0B09F18CE06C4BCC1 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F8832F1B5A346A2B08E42CAD /* ESFeedbackViewController */ = {
+		D30E30EA0D520FE3E760D68ADB1D1A76 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				C15E152A40E98301E4AF6E99 /* ESFeedbackEnjoyViewController.h */,
-				58E259E0E8558CEBB9BC7946 /* ESFeedbackEnjoyViewController.m */,
-				EF5870D4F47BE5A91E84CC0A /* ESFeedbackFinishViewController.h */,
-				DBC635246DE653AB00CFAC40 /* ESFeedbackFinishViewController.m */,
-				FFCE9EFCB99830ACC6C094D2 /* ESFeedbackNavigationController.h */,
-				26B1514F9F57B05B0CA7D4C0 /* ESFeedbackNavigationController.m */,
-				DB9BCFE18FEE285EEBB8A8BC /* ESFeedbackPromptViewController.h */,
-				5A90CD580267A7E7641E6A18 /* ESFeedbackPromptViewController.m */,
-				ABFBBA37A63B68EFE1E73E02 /* ESFeedbackQuestionViewController.h */,
-				9DEB7966BFA5A75EA1C9DC67 /* ESFeedbackQuestionViewController.m */,
-				F57691B6360A7FD29D95035E /* ESFeedbackRatingViewController.h */,
-				220522E1FFF51B7A1DF06332 /* ESFeedbackRatingViewController.m */,
-				08AC336C83F28239905B4D52 /* ESFeedbackSuggestionViewController.h */,
-				CD2148EAC6EA7F4D2290F257 /* ESFeedbackSuggestionViewController.m */,
-				61CA03EEE6103BCA593441A6 /* ESFeedbackViewController.h */,
-				CCBE666D0E823E2F9D78B9B9 /* ESFeedbackViewController.m */,
-				81789DA4E48844C23845AB61 /* ESFeedbackViewController+Constraints.h */,
-				86A0399AD8D5CD5AB37463B5 /* ESFeedbackViewController+Constraints.m */,
-				C6252E7602D994DB5DC26931 /* ESFeedbackViewController+Keyboard.h */,
-				57CE0B4D23EE9694B62F074A /* ESFeedbackViewController+Keyboard.m */,
-				2B0C5BCA2FCD5D180E141260 /* ESFeedbackViewController+Navigation.h */,
-				AEC8483AA0A97B3C2438A779 /* ESFeedbackViewController+Navigation.m */,
-				AB24267C01A036D7A07A5984 /* ESScreenUtils.h */,
-				E4BBC2796D08C96F7EE35D52 /* ESScreenUtils.m */,
-				FECC80B15AF095E345748D6B /* UIColor+Hex.h */,
-				0F2F1BF95809CB2149655944 /* UIColor+Hex.m */,
-				1553FC9A4F5174B0E46A20CA /* Resources */,
-				B79475E2A46EF377E19E91EF /* Support Files */,
+				686A06DEF1A8724A4B1DAF871B25A90B /* Feedback.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D5C840B2E6AE3F68A3EA65102096E53F /* ESFeedbackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F38A7ECE569C9304BC0CABD8C9D5D4E8 /* ESFeedbackViewController */,
+				1DDC4751E976A677C858531A0DB5303E /* Resources */,
+				3FFCC265CA7CFFCE262DBF3F4DC44743 /* Support Files */,
 			);
 			name = ESFeedbackViewController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		D61FFAFF8CB3BBFA44C951FE62922C01 /* Screen utils */ = {
+			isa = PBXGroup;
+			children = (
+				6AF57DAFB747457963F87B3AAB3C2769 /* ESScreenUtils.h */,
+				D7470A5548B48211E0419D1E8E08A06F /* ESScreenUtils.m */,
+			);
+			path = "Screen utils";
+			sourceTree = "<group>";
+		};
+		EF7EA990B07A698679D814EB13A004CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9845EDB8214F606D676185936A6573E /* Finish */,
+				4604346A7C6FF0B0FF7DA0DE65A5E388 /* Main */,
+				9DE07E887FB6F89272B47EFE880F05D7 /* Navigation */,
+				0F36EB24B30B6DA9408BFF8D934F257A /* Prompt */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F38A7ECE569C9304BC0CABD8C9D5D4E8 /* ESFeedbackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B25D8BC1008BE333B24A138008703 /* Categories */,
+				EF7EA990B07A698679D814EB13A004CB /* Controllers */,
+				265C22E48E8329401634B9F0CD58C303 /* Helpers */,
+			);
+			path = ESFeedbackViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DB66FDBE77AD633D4D38938 /* Headers */ = {
+		C0048B79FB30D023EFE95AEA2DA3D322 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A620D7CF2540EE7EEEDBEA7 /* UIImageEffects.h in Headers */,
-				D6AD827C752D38A36CE28039 /* UIView+ESBlur.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1A7D651E9DC860319464825 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A54B6E9D74465F0647A6FBE /* ESFeedbackEnjoyViewController.h in Headers */,
-				AFFE4BA3DA414C1FE880EBEF /* ESFeedbackFinishViewController.h in Headers */,
-				64E84C3B79781CCE2D4358C9 /* ESFeedbackNavigationController.h in Headers */,
-				FE8F051657BCE1376D9939B1 /* ESFeedbackPromptViewController.h in Headers */,
-				F14D7038112EE0BF618C1DDD /* ESFeedbackQuestionViewController.h in Headers */,
-				58A9798C810E454451E65A11 /* ESFeedbackRatingViewController.h in Headers */,
-				7454040E976133E7375B8E4B /* ESFeedbackSuggestionViewController.h in Headers */,
-				00B35323F33448409EA80B07 /* ESFeedbackViewController+Constraints.h in Headers */,
-				E6875A771E3A7F9CB8850D39 /* ESFeedbackViewController+Keyboard.h in Headers */,
-				D06E2F3777DD93B618CCCB6D /* ESFeedbackViewController+Navigation.h in Headers */,
-				04288F2A73C9D695366F6E53 /* ESFeedbackViewController.h in Headers */,
-				315497D099485F829302B438 /* ESScreenUtils.h in Headers */,
-				818BAB8EBBAE0617DFBB87DC /* UIColor+Hex.h in Headers */,
+				345C03959421780F40FEDA54CCAF5DFB /* ESFeedbackEnjoyViewController.h in Headers */,
+				8A0860A55B1FFC261FD95D81BD68F355 /* ESFeedbackFinishViewController.h in Headers */,
+				604E9AD0A0228F039D821377FEBDB607 /* ESFeedbackNavigationController.h in Headers */,
+				88B91DF03E013FF9152494244F7E1A13 /* ESFeedbackPromptViewController.h in Headers */,
+				6DF90ED9AF1761E04B7C6445240DF109 /* ESFeedbackQuestionViewController.h in Headers */,
+				AE8607CB34E3DB7537E9C5CD77FF9D64 /* ESFeedbackRatingViewController.h in Headers */,
+				583BD54CFDCD1EB0784A49A1AF79AEFC /* ESFeedbackSuggestionViewController.h in Headers */,
+				6BE37EC600E3DBC5D87E867C25D087C3 /* ESFeedbackViewController+Constraints.h in Headers */,
+				F47D853015ABA9C8A708CA2A427315CE /* ESFeedbackViewController+Keyboard.h in Headers */,
+				401CDF7324C38D41803AA5D503AA44CA /* ESFeedbackViewController+Navigation.h in Headers */,
+				BFF101286D211DF35192F085B4EE6E98 /* ESFeedbackViewController.h in Headers */,
+				DD169FF291B3E2A2948A4502711551CD /* ESScreenUtils.h in Headers */,
+				5680A026D8A51D067CDC64E4244E02AD /* UIColor+Hex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9E764C6DF4CF5C4B9C66CDAA /* Pods */ = {
+		435833967C23B4518C548E5A2887FCEC /* ESFeedbackViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 108151B8460113DB9E7A5789 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = C77979254500E97D9E796F3C865CD26C /* Build configuration list for PBXNativeTarget "ESFeedbackViewController" */;
 			buildPhases = (
-				74534FDAB2A03710706C8598 /* Sources */,
-				A56FF05A963B2F42F7CF8E94 /* Frameworks */,
+				8F317222F5C16EE54B4A6A9082FEE2FF /* Sources */,
+				3AA68F2E51528B0EA9DAE692189C2859 /* Frameworks */,
+				C0048B79FB30D023EFE95AEA2DA3D322 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3EB0A5F0A89C3E85B2B08D0 /* PBXTargetDependency */,
-				DC6CE51ABC6F4AC5AA6DF4AF /* PBXTargetDependency */,
+			);
+			name = ESFeedbackViewController;
+			productName = ESFeedbackViewController;
+			productReference = 0BC83A2D2875C8E2025F6190393A1A4F /* libESFeedbackViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF449650E84A653DEAB9B0D9CD798A01 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F80C60D4A50D7EE42B34519438476F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				CC2D1A0535A76FFB5C9818B63ED12676 /* Sources */,
+				0F24F0EA5DB4A49C353AAEAB65EED803 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55EDC523B72E05BFBED97A437D5D4C6 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 3D9771056AB932DDBA82D2BB /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B68EF91F4D932CEDD56EF5BE /* Pods-ESFeedbackViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A642AB9226A3E80C2B2AD9B /* Build configuration list for PBXNativeTarget "Pods-ESFeedbackViewController" */;
-			buildPhases = (
-				28DC909604E1F1B419F2545F /* Sources */,
-				8DCF04147AEF1BC32AF77D77 /* Frameworks */,
-				A1A7D651E9DC860319464825 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				089C011825E08EFE5DA7D53A /* PBXTargetDependency */,
-			);
-			name = "Pods-ESFeedbackViewController";
-			productName = "Pods-ESFeedbackViewController";
-			productReference = 36FAC49721B459EF545DE8EB /* libPods-ESFeedbackViewController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F56832101CF556F5BF781E9D /* Pods-ESBlur */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A43F4F039CE38BC398A1D5C /* Build configuration list for PBXNativeTarget "Pods-ESBlur" */;
-			buildPhases = (
-				095E538B2F74ED8243CCE0DF /* Sources */,
-				4488A39B3084504A624ABB18 /* Frameworks */,
-				4DB66FDBE77AD633D4D38938 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ESBlur";
-			productName = "Pods-ESBlur";
-			productReference = CD1C809FEFBCADF98288D4B5 /* libPods-ESBlur.a */;
+			productReference = 5F4CAD0E7A6008C0B09F18CE06C4BCC1 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D70929DD8C2C92CEDDACF3D7 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 4E752AB06E7191E2F2362325 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 90A1C9E32C4208E5D451715B;
-			productRefGroup = 84CBF0D3B564B29969518BDE /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E764C6DF4CF5C4B9C66CDAA /* Pods */,
-				F56832101CF556F5BF781E9D /* Pods-ESBlur */,
-				B68EF91F4D932CEDD56EF5BE /* Pods-ESFeedbackViewController */,
+				435833967C23B4518C548E5A2887FCEC /* ESFeedbackViewController */,
+				AF449650E84A653DEAB9B0D9CD798A01 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		095E538B2F74ED8243CCE0DF /* Sources */ = {
+		8F317222F5C16EE54B4A6A9082FEE2FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2701C9423D95AD62425FF55 /* Pods-ESBlur-dummy.m in Sources */,
-				9A64060BD7421CF6B03C73FB /* UIImageEffects.m in Sources */,
-				23BB118D597939E4B2E67D08 /* UIView+ESBlur.m in Sources */,
+				E62D387BDED4E346EE23426BF80C804F /* ESFeedbackEnjoyViewController.m in Sources */,
+				E5C3CA00D5C1EF153C36AF3790CD2796 /* ESFeedbackFinishViewController.m in Sources */,
+				DA6663AD2B61A5D7762F5633361FAA7B /* ESFeedbackNavigationController.m in Sources */,
+				6287BA57185E237AD2A8E6EC839D20D1 /* ESFeedbackPromptViewController.m in Sources */,
+				6B22F7866E591B3FEABA3F0283BB3B54 /* ESFeedbackQuestionViewController.m in Sources */,
+				4E0CE225B43152C727F6458F24A0B9AE /* ESFeedbackRatingViewController.m in Sources */,
+				BC01331DFAFB33FC35CB2A77D7EF3647 /* ESFeedbackSuggestionViewController.m in Sources */,
+				C316C286F61DB402BF74A59CF765B17C /* ESFeedbackViewController+Constraints.m in Sources */,
+				2D7DDE3F2CF6980B314B97B5B156A187 /* ESFeedbackViewController+Keyboard.m in Sources */,
+				2B5B1F89DE14FE595FC51E8904AFD5C2 /* ESFeedbackViewController+Navigation.m in Sources */,
+				21C0670276D22A2081172C49911DE7A6 /* ESFeedbackViewController-dummy.m in Sources */,
+				9D587F834C3F0E1581AFE5D51E1FC401 /* ESFeedbackViewController.m in Sources */,
+				BE109F38E0FB39677704DDD7C6DF9996 /* ESScreenUtils.m in Sources */,
+				07BEBB7E787E960CF276EF59BEB58257 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DC909604E1F1B419F2545F /* Sources */ = {
+		CC2D1A0535A76FFB5C9818B63ED12676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489D7C3BC2B313306DBECC46 /* ESFeedbackEnjoyViewController.m in Sources */,
-				11C9B9B9EC8E13F8CC11069A /* ESFeedbackFinishViewController.m in Sources */,
-				DB65AE7E581371143302D831 /* ESFeedbackNavigationController.m in Sources */,
-				1E79A6F3DC746F36809ACB7C /* ESFeedbackPromptViewController.m in Sources */,
-				AF41625405B7EDC978E1BFA2 /* ESFeedbackQuestionViewController.m in Sources */,
-				301254CC7E7E700C518DC348 /* ESFeedbackRatingViewController.m in Sources */,
-				C3CC05D3BFC8161DC5747764 /* ESFeedbackSuggestionViewController.m in Sources */,
-				EACA1173578DC82ADB2F69DD /* ESFeedbackViewController+Constraints.m in Sources */,
-				7D82F0DF285519EA4F86DA67 /* ESFeedbackViewController+Keyboard.m in Sources */,
-				CE8020DF82BA8845198924D0 /* ESFeedbackViewController+Navigation.m in Sources */,
-				A2ABEB9C5F37B70FF43F7D68 /* ESFeedbackViewController.m in Sources */,
-				3B2FF5E5489A1A3D08CD8A1D /* ESScreenUtils.m in Sources */,
-				568A91114D81CE757EC36AE5 /* Pods-ESFeedbackViewController-dummy.m in Sources */,
-				862E6AF1F9EE72C7B95F9BC2 /* UIColor+Hex.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74534FDAB2A03710706C8598 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CADBE40D3FE7679A5A4E631 /* Pods-dummy.m in Sources */,
+				BDCF51CA19AE463E59534562598515B5 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		089C011825E08EFE5DA7D53A /* PBXTargetDependency */ = {
+		D55EDC523B72E05BFBED97A437D5D4C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ESBlur";
-			target = F56832101CF556F5BF781E9D /* Pods-ESBlur */;
-			targetProxy = DCB4F3629F65220FF49B6E5E /* PBXContainerItemProxy */;
-		};
-		C3EB0A5F0A89C3E85B2B08D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ESBlur";
-			target = F56832101CF556F5BF781E9D /* Pods-ESBlur */;
-			targetProxy = 5376B71245863E5CEE1E6A2F /* PBXContainerItemProxy */;
-		};
-		DC6CE51ABC6F4AC5AA6DF4AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ESFeedbackViewController";
-			target = B68EF91F4D932CEDD56EF5BE /* Pods-ESFeedbackViewController */;
-			targetProxy = 9962B78225A2E43F7D78B082 /* PBXContainerItemProxy */;
+			name = ESFeedbackViewController;
+			target = 435833967C23B4518C548E5A2887FCEC /* ESFeedbackViewController */;
+			targetProxy = CEF2D1F51078E29038C2CD41C1B976E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2DB59512DEA7C12CCBC7CC60 /* Release */ = {
+		051026BC3E936C62930EFEA08D1067EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F85649B08E08D6432D4B7102 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 575E614B1BCE9F6C4FD4CF5872A16379 /* ESFeedbackViewController-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESFeedbackViewController/ESFeedbackViewController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		47902396EF7CCE98BA7168DE /* Release */ = {
+		3DADAE29C14D825BFEC8E6168B1C6257 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A512519188CD346447050A08 /* Pods-ESBlur-Private.xcconfig */;
+			baseConfigurationReference = 575E614B1BCE9F6C4FD4CF5872A16379 /* ESFeedbackViewController-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESBlur/Pods-ESBlur-prefix.pch";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESFeedbackViewController/ESFeedbackViewController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		727F9AA67EA12B6023AD0631 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E707E9C04C12B27B1595CC8C /* Pods-ESFeedbackViewController-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESFeedbackViewController/Pods-ESFeedbackViewController-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		75F614FA90EFE7B395A6B269 /* Debug */ = {
+		9644807D3E475C6F981BD4602443B407 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EBBE841E440911033183D83 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 630ED08C05B3F75F957FFEC17D1CE4E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A53311065CA4EAC5D1730490 /* Debug */ = {
+		9EB645C612834738B99727720210C23E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -612,7 +515,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -630,10 +535,27 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DAEB5F1FF5DD35FC338FBC32 /* Release */ = {
+		D32A816B29692F29CF06EF64099F4669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC28120DE6D83B28B3EF0ADD53B5FCA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -648,7 +570,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = NO;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
@@ -660,106 +584,42 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		DB158C9EFF1146B2B97A7B05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E707E9C04C12B27B1595CC8C /* Pods-ESFeedbackViewController-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESFeedbackViewController/Pods-ESFeedbackViewController-prefix.pch";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FFF63473067A000CE45F365A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A512519188CD346447050A08 /* Pods-ESBlur-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESBlur/Pods-ESBlur-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		108151B8460113DB9E7A5789 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75F614FA90EFE7B395A6B269 /* Debug */,
-				2DB59512DEA7C12CCBC7CC60 /* Release */,
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A642AB9226A3E80C2B2AD9B /* Build configuration list for PBXNativeTarget "Pods-ESFeedbackViewController" */ = {
+		C77979254500E97D9E796F3C865CD26C /* Build configuration list for PBXNativeTarget "ESFeedbackViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				727F9AA67EA12B6023AD0631 /* Debug */,
-				DB158C9EFF1146B2B97A7B05 /* Release */,
+				3DADAE29C14D825BFEC8E6168B1C6257 /* Debug */,
+				051026BC3E936C62930EFEA08D1067EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A43F4F039CE38BC398A1D5C /* Build configuration list for PBXNativeTarget "Pods-ESBlur" */ = {
+		F0F80C60D4A50D7EE42B34519438476F /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFF63473067A000CE45F365A /* Debug */,
-				47902396EF7CCE98BA7168DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E752AB06E7191E2F2362325 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A53311065CA4EAC5D1730490 /* Debug */,
-				DAEB5F1FF5DD35FC338FBC32 /* Release */,
+				9644807D3E475C6F981BD4602443B407 /* Debug */,
+				D32A816B29692F29CF06EF64099F4669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D70929DD8C2C92CEDDACF3D7 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
