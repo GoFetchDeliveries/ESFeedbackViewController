@@ -5,7 +5,6 @@
 //
 
 #import <StoreKit/StoreKit.h>
-#import <UIView+ESBlur.h>
 
 #import "ESFeedbackViewController.h"
 #import "ESFeedbackPromptViewController.h"
@@ -51,7 +50,6 @@ static ESFeedbackViewController *_currentInstance;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *navigationContainerBottomContraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *buttonsContainerHeightConstraint;
 
-@property (nonatomic, strong) UIView *blurView;
 @property (nonatomic, strong) ESFeedbackNavigationController *feedbackNavigationController;
 @property (nonatomic, strong) SKStoreProductViewController *storeViewController;
 
@@ -173,9 +171,8 @@ static ESFeedbackViewController *_currentInstance;
 
 
 - (void)viewWillAppear:(BOOL)animated {
-    self.blurView.alpha = 0.0;
     self.view.alpha = 0.0;
-    [self fadeInBlurView];
+    [self fadeInView];
 }
 
 
@@ -250,17 +247,6 @@ static ESFeedbackViewController *_currentInstance;
     _currentInstance = nil;
 }
 
-
-- (void)fadeInBlurView {
-    [UIView animateWithDuration:0.5
-                     animations:^{
-                         self.blurView.alpha = 1.0;
-                     } completion:^(BOOL finished) {
-                         [self fadeInView];
-                     }];
-}
-
-
 - (void)fadeInView {
     [UIView animateWithDuration:0.5 animations:^{
         self.view.alpha = 1.0;
@@ -284,25 +270,11 @@ static ESFeedbackViewController *_currentInstance;
 
 
 - (void)setupStyles {
-    [self setupBlurView];
     [self setupCancelButton];
     [self setupOKButton];
     
     self.loadingView.hidden = YES;
 }
-
-
-- (void)setupBlurView {
-    UIColor *tintColor = [UIColor colorWithWhite:0.0 alpha:0.4];
-    self.blurView = [_mainWindow viewByApplyingBlurWithTintColor:tintColor];
-    
-    self.blurView.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:self.blurView];
-    [self setupEdgeConstraintsForView:self.blurView];
-    
-    [self.view sendSubviewToBack:self.blurView];
-}
-
 
 - (void)setupCancelButton {
     self.cancelButton.backgroundColor = _cancelButtonBackgroundColour ?: [UIColor colorWithHex:0xFAF6F5];
