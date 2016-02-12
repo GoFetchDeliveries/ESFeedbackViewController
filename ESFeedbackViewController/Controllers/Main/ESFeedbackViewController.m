@@ -37,6 +37,9 @@ static UIWindow *_presentingWindow;
 
 static ESFeedbackViewController *_currentInstance;
 
+NSString *templateReviewURL = @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APP_ID";
+NSString *templateReviewURLiOS7 = @"itms-apps://itunes.apple.com/app/idAPP_ID";
+NSString *templateReviewURLiOS8 = @"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APP_ID&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software";
 
 @interface ESFeedbackViewController () <SKStoreProductViewControllerDelegate>
 
@@ -352,11 +355,26 @@ static ESFeedbackViewController *_currentInstance;
             completion();
         }
         
-        UIViewController *rootVC = [UIApplication sharedApplication].delegate.window.rootViewController;
-        [rootVC presentViewController:weakSelf.storeViewController animated:YES completion:nil];
+        BOOL openInAppStore = [[UIDevice currentDevice].systemVersion floatValue] >= 7.0;
+        if (openInAppStore) {
+            NSString *reviewURL = [templateReviewURL stringByReplacingOccurrencesOfString:@"APP_ID" withString:[NSString stringWithFormat:@"%@", appID]];
+            
+            if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 && [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0) {
+                reviewURL = [templateReviewURLiOS7 stringByReplacingOccurrencesOfString:@"APP_ID" withString:[NSString stringWithFormat:@"%@", appID]];
+            }
+            // iOS 8 needs a different templateReviewURL also @see https://github.com/arashpayan/appirater/issues/182
+            else if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+            {
+                reviewURL = [templateReviewURLiOS8 stringByReplacingOccurrencesOfString:@"APP_ID" withString:[NSString stringWithFormat:@"%@", appID]];
+            }
+            
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:reviewURL]];
+        } else {
+            UIViewController *rootVC = [UIApplication sharedApplication].delegate.window.rootViewController;
+            [rootVC presentViewController:weakSelf.storeViewController animated:YES completion:nil];
+        }
     }];
 }
-
 
 - (void)promptViewController:(ESFeedbackPromptViewController *)promptVC wasDismissedChoosingOK:(BOOL)ok {
     if (_onPromptWasDismissed != nil) {
