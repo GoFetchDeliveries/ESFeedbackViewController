@@ -10,6 +10,7 @@
 
 #import "UIColor+Hex.h"
 
+#import <ZendeskSDK/ZDKRequests.h>
 
 @interface ESFeedbackQuestionViewController ()
 
@@ -60,9 +61,21 @@
 - (void)performOKAction {
     [super performOKAction];
     
-    [self performSegueWithIdentifier:@"PushSuggestion" sender:self];
+    ESFeedbackNavigationController *navigationController = (ESFeedbackNavigationController *) self.navigationController;
+    if (navigationController) {
+        [ZDKRequests showRequestCreationWithNavController:self.navigationController
+                                              withSuccess:^(id result) {
+                                                  NSLog(@"Success creating ticket: %@",result);
+                                                  [navigationController finish];
+                                              } andError:^(NSError *error) {
+                                                  NSLog(@"Error creating ticket: %@",error);
+                                                  [navigationController finish];
+                                              }];
+        /*
+        [vc dismissClearingCurrentInstance:YES];
+        */
+    }
 }
-
 
 #pragma mark - Private methods
 
